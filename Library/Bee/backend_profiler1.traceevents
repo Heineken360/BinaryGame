@@ -1,0 +1,484 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1659429265758820, "dur":746, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1659429265759571, "dur":43, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1659429265759623, "dur":12, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1659429265759636, "dur":210, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1659429265759868, "dur":497, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1659429265760365, "dur":2, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1659429266201903, "dur":150, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1659429266202053, "dur":12, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1659429266202065, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1659429266202066, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1659429266202073, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1659429266202075, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1659429266202080, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1659429266202081, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1659429266202086, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1659429266202088, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1659429266202093, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1659429266202095, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1659429266202101, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1659429266202120, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1659429266202124, "dur":933, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1659429265760377, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1659429265760377, "dur":3462, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1659429265763849, "dur":0, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1659429265763923, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1659429265764487, "dur":163, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1659429265764652, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Binary Land/BinaryGame/BinaryLand_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1659429265764667, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1659429265764740, "dur":4992, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Binary Land/BinaryGame/BinaryLand_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1659429265769737, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Binary Land/BinaryGame/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1659429265769851, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1659429265769880, "dur":119261, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Binary Land/BinaryGame/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1659429265889200, "dur":120986, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659429266010204, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1659429266010209, "dur":1265, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659429266011527, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659429266011618, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1659429266011623, "dur":2335, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659429266013971, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659429266014055, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1659429266014060, "dur":15332, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659429266029404, "dur":25080, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659429266054487, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1659429266054494, "dur":369, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659429266054870, "dur":118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659429266054990, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1659429266054993, "dur":382, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659429266055382, "dur":135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659429266055518, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1659429266055521, "dur":391, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659429266055919, "dur":15736, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659429266071661, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1659429266071669, "dur":765, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659429266072445, "dur":174, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659429266072621, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1659429266072626, "dur":961, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659429266073598, "dur":14671, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659429266088276, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1659429266088285, "dur":627, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659429266088922, "dur":23986, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659429266112914, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1659429266112923, "dur":5443, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659429266118382, "dur":132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659429266118515, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1659429266118521, "dur":3807, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659429266122344, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659429266122450, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1659429266122456, "dur":1076, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659429266123541, "dur":232, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659429266123774, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1659429266123778, "dur":894, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659429266124686, "dur":392, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659429266125080, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1659429266125085, "dur":803, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659429266125897, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659429266125986, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1659429266125990, "dur":449, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659429266126448, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659429266126561, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1659429266126564, "dur":1099, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659429266127682, "dur":310, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659429266127994, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1659429266127998, "dur":1368, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659429266129374, "dur":31950, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659429266161328, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1659429266161332, "dur":438, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659429266161779, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659429266161873, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1659429266161877, "dur":843, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659429266162728, "dur":9473, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Binary Land/BinaryGame/BinaryLand_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659429266172230, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1659429266172479, "dur":492, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Binary Land/BinaryGame/BinaryLand_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659429266172982, "dur":28902, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1659429265760388, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1659429265760389, "dur":3459, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1659429265763849, "dur":6346, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Binary Land/BinaryGame/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1659429265770201, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1659429265770209, "dur":1288, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Binary Land/BinaryGame/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1659429265771536, "dur":5433, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Binary Land/BinaryGame/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1659429265776972, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1659429265776980, "dur":469, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Binary Land/BinaryGame/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1659429265777488, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Binary Land/BinaryGame/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1659429265777582, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1659429265777594, "dur":6310, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Binary Land/BinaryGame/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1659429265783947, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Binary Land/BinaryGame/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":2, "ts":1659429265784037, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1659429265784041, "dur":4551, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Binary Land/BinaryGame/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":2, "ts":1659429265788663, "dur":34871, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Binary Land/BinaryGame/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":2, "ts":1659429265823540, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1659429265823712, "dur":28586, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Binary Land/BinaryGame/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":2, "ts":1659429265852349, "dur":44126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Binary Land/BinaryGame/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":2, "ts":1659429265896480, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1659429265896487, "dur":9389, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Binary Land/BinaryGame/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":2, "ts":1659429265905962, "dur":29055, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1659429265935024, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1659429265935032, "dur":542, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1659429265935583, "dur":29338, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1659429265964927, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1659429265964935, "dur":575, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1659429265965551, "dur":16177, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1659429265981734, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1659429265981743, "dur":1172, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1659429265982927, "dur":31375, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1659429266014308, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1659429266014323, "dur":899, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1659429266015233, "dur":181, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1659429266015416, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1659429266015420, "dur":596, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1659429266016026, "dur":13314, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1659429266029346, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1659429266029354, "dur":667, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1659429266030034, "dur":12470, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1659429266042507, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1659429266042511, "dur":1198, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1659429266043723, "dur":13692, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1659429266057420, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1659429266057429, "dur":546, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1659429266057985, "dur":257, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1659429266058244, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1659429266058248, "dur":522, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1659429266058778, "dur":21379, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1659429266080162, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1659429266080169, "dur":1377, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1659429266081558, "dur":32274, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1659429266113835, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1659429266113839, "dur":521, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1659429266114367, "dur":140, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1659429266114509, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1659429266114512, "dur":408, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1659429266114927, "dur":64549, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1659429266179479, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1659429266179483, "dur":468, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1659429266179960, "dur":21921, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1659429265760464, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1659429265760465, "dur":3385, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1659429265763853, "dur":867, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Binary Land/BinaryGame/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1659429265764722, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1659429265766918, "dur":5504, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Binary Land/BinaryGame/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1659429265772492, "dur":114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Binary Land/BinaryGame/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1659429265772608, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1659429265772625, "dur":1485, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Binary Land/BinaryGame/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1659429265774156, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Binary Land/BinaryGame/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1659429265774242, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1659429265774401, "dur":1729, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Binary Land/BinaryGame/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1659429265776187, "dur":6505, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Binary Land/BinaryGame/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1659429265782698, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1659429265782707, "dur":647, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Binary Land/BinaryGame/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1659429265783409, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Binary Land/BinaryGame/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1659429265783528, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1659429265783534, "dur":141741, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Binary Land/BinaryGame/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1659429265925333, "dur":15454, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659429265940790, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1659429265940813, "dur":13926, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659429265954751, "dur":13938, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659429265968695, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1659429265968704, "dur":532, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659429265969245, "dur":12987, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659429265982235, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1659429265982239, "dur":7950, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659429265990201, "dur":52176, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659429266042382, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1659429266042391, "dur":1239, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659429266043644, "dur":118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659429266043764, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1659429266043768, "dur":460, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659429266044236, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659429266044311, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1659429266044316, "dur":417, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659429266044741, "dur":16342, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659429266061089, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1659429266061096, "dur":914, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659429266062025, "dur":14960, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659429266076991, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1659429266077017, "dur":857, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659429266077885, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659429266077960, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1659429266077964, "dur":492, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659429266078464, "dur":14714, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659429266093187, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1659429266093197, "dur":757, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659429266093963, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659429266094047, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1659429266094052, "dur":419, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659429266094479, "dur":13655, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659429266108139, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1659429266108147, "dur":516, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659429266108673, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659429266108762, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1659429266108766, "dur":355, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659429266109128, "dur":17982, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659429266127115, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1659429266127123, "dur":610, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659429266127743, "dur":535, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659429266128280, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1659429266128284, "dur":951, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659429266129244, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659429266129298, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1659429266129316, "dur":2634, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659429266131963, "dur":44141, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659429266176107, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1659429266176112, "dur":753, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659429266176878, "dur":25004, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1659429265760424, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1659429265760425, "dur":3504, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1659429265763929, "dur":6353, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Binary Land/BinaryGame/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1659429265770285, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1659429265770291, "dur":600, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Binary Land/BinaryGame/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1659429265770929, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Binary Land/BinaryGame/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1659429265771025, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1659429265771179, "dur":1663, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Binary Land/BinaryGame/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1659429265772884, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Binary Land/BinaryGame/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1659429265772969, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1659429265772974, "dur":120142, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Binary Land/BinaryGame/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1659429265893175, "dur":19807, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659429265912989, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1659429265913172, "dur":445, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659429265913628, "dur":23005, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659429265936636, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1659429265936642, "dur":1310, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659429265937966, "dur":17368, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659429265955338, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1659429265955345, "dur":429, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659429265955783, "dur":22348, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659429265978137, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1659429265978145, "dur":519, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659429265978675, "dur":13019, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659429265991699, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1659429265991707, "dur":648, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659429265992366, "dur":12527, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659429266004898, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1659429266004906, "dur":586, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659429266005502, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659429266005573, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1659429266005576, "dur":922, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659429266006518, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659429266006621, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1659429266006625, "dur":405, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659429266007038, "dur":751, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659429266007791, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1659429266007795, "dur":1152, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659429266008958, "dur":198, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659429266009158, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1659429266009162, "dur":521, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659429266009690, "dur":14802, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659429266024509, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1659429266024517, "dur":542, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659429266025069, "dur":21302, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659429266046375, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1659429266046384, "dur":592, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659429266046986, "dur":20414, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659429266067403, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1659429266067409, "dur":689, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659429266068111, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659429266068182, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1659429266068187, "dur":335, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659429266068530, "dur":14323, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659429266082856, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1659429266082862, "dur":879, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659429266083754, "dur":15839, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659429266099599, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1659429266099608, "dur":836, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659429266100453, "dur":12993, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659429266113448, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1659429266113453, "dur":669, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659429266114132, "dur":12979, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659429266127115, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1659429266127123, "dur":1473, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659429266128605, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659429266128668, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1659429266128672, "dur":647, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659429266129326, "dur":180, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659429266129508, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1659429266129511, "dur":466, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659429266129985, "dur":20614, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659429266150601, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1659429266150605, "dur":452, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659429266151065, "dur":574, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659429266151640, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1659429266151644, "dur":926, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659429266152581, "dur":137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659429266152720, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1659429266152724, "dur":524, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659429266153256, "dur":184, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659429266153442, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1659429266153445, "dur":597, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659429266154051, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659429266154114, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1659429266154123, "dur":855, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659429266154989, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659429266155076, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1659429266155080, "dur":566, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659429266155656, "dur":1837, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659429266157495, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1659429266157500, "dur":1988, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659429266159500, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659429266159583, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1659429266159587, "dur":452, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659429266160047, "dur":779, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659429266160827, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1659429266160831, "dur":1060, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659429266161902, "dur":2713, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659429266164618, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1659429266164625, "dur":4470, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659429266169106, "dur":32797, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1659429265760416, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1659429265760416, "dur":3431, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1659429265763848, "dur":148, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Binary Land/BinaryGame/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1659429265763998, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1659429265767111, "dur":5446, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Binary Land/BinaryGame/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1659429265772605, "dur":7683, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Binary Land/BinaryGame/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1659429265780296, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1659429265780306, "dur":536, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Binary Land/BinaryGame/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1659429265780881, "dur":5223, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Binary Land/BinaryGame/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1659429265786131, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1659429265786140, "dur":474, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Binary Land/BinaryGame/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1659429265786645, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Binary Land/BinaryGame/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":5, "ts":1659429265786736, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1659429265786740, "dur":3185, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Binary Land/BinaryGame/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":5, "ts":1659429265789977, "dur":66129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Binary Land/BinaryGame/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":5, "ts":1659429265856112, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1659429265856158, "dur":5217, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Binary Land/BinaryGame/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":5, "ts":1659429265861432, "dur":19128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Binary Land/BinaryGame/BinaryLand.exe" }}
+,{ "pid":12345, "tid":5, "ts":1659429265880566, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1659429265880573, "dur":1108, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Binary Land/BinaryGame/BinaryLand.exe" }}
+,{ "pid":12345, "tid":5, "ts":1659429265881693, "dur":121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Binary Land/BinaryGame/BinaryLand_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":5, "ts":1659429265881816, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1659429265881920, "dur":20265, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Binary Land/BinaryGame/BinaryLand_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":5, "ts":1659429265902246, "dur":15272, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1659429265917524, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1659429265917561, "dur":489, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1659429265918059, "dur":22091, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1659429265940155, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1659429265940163, "dur":1191, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1659429265941369, "dur":70560, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1659429266011932, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1659429266011935, "dur":3550, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1659429266015501, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1659429266015601, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1659429266015605, "dur":468, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1659429266016083, "dur":37261, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1659429266053351, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1659429266053360, "dur":816, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1659429266054188, "dur":12645, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1659429266066839, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1659429266066848, "dur":3640, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1659429266070504, "dur":325, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1659429266070832, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1659429266070837, "dur":3059, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1659429266073904, "dur":21413, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1659429266095343, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1659429266095350, "dur":4469, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1659429266099830, "dur":3859, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1659429266103695, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1659429266103704, "dur":1316, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1659429266105032, "dur":14299, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1659429266119333, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1659429266119340, "dur":424, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1659429266119773, "dur":15806, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1659429266135583, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1659429266135590, "dur":462, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1659429266136061, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":5, "ts":1659429266136130, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1659429266136133, "dur":340, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":5, "ts":1659429266136481, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1659429266136565, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1659429266136568, "dur":400, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1659429266136975, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":5, "ts":1659429266137031, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1659429266137034, "dur":337, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":5, "ts":1659429266137378, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1659429266137434, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1659429266137437, "dur":307, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1659429266137750, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1659429266137816, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1659429266137819, "dur":313, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1659429266138139, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1659429266138198, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1659429266138200, "dur":606, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1659429266138815, "dur":127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":5, "ts":1659429266138944, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1659429266138948, "dur":441, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":5, "ts":1659429266139396, "dur":1778, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":5, "ts":1659429266141178, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1659429266141185, "dur":2313, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":5, "ts":1659429266143510, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1659429266143599, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1659429266143604, "dur":464, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1659429266144075, "dur":177, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":5, "ts":1659429266144254, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1659429266144257, "dur":5695, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":5, "ts":1659429266149965, "dur":267, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1659429266150256, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1659429266150262, "dur":1422, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1659429266151693, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1659429266151751, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1659429266151754, "dur":3152, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1659429266154920, "dur":135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":5, "ts":1659429266155057, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1659429266155076, "dur":508, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":5, "ts":1659429266155594, "dur":372, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":5, "ts":1659429266155967, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1659429266155971, "dur":645, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":5, "ts":1659429266156626, "dur":1426, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":5, "ts":1659429266158056, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1659429266158063, "dur":2141, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":5, "ts":1659429266160217, "dur":211, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1659429266160430, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1659429266160438, "dur":660, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1659429266161106, "dur":204, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":5, "ts":1659429266161327, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1659429266161331, "dur":605, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":5, "ts":1659429266161944, "dur":222, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1659429266162167, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1659429266162170, "dur":482, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1659429266162659, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":5, "ts":1659429266162714, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1659429266162717, "dur":465, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":5, "ts":1659429266163190, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Binary Land/BinaryGame/BinaryLand_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":5, "ts":1659429266163200, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1659429266163209, "dur":647, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Binary Land/BinaryGame/BinaryLand_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":5, "ts":1659429266163866, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Binary Land/BinaryGame/BinaryLand_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1659429266163878, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1659429266163881, "dur":341, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Binary Land/BinaryGame/BinaryLand_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1659429266164229, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Binary Land/BinaryGame/BinaryLand_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":5, "ts":1659429266164255, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1659429266164258, "dur":296, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Binary Land/BinaryGame/BinaryLand_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":5, "ts":1659429266164561, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Binary Land/BinaryGame/BinaryLand_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":5, "ts":1659429266164619, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1659429266164622, "dur":975, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Binary Land/BinaryGame/BinaryLand_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":5, "ts":1659429266165607, "dur":534, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Binary Land/BinaryGame/BinaryLand_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":5, "ts":1659429266166145, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1659429266166152, "dur":890, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Binary Land/BinaryGame/BinaryLand_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":5, "ts":1659429266167056, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Binary Land/BinaryGame/BinaryLand_Data/level0" }}
+,{ "pid":12345, "tid":5, "ts":1659429266167071, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1659429266167077, "dur":520, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Binary Land/BinaryGame/BinaryLand_Data/level0" }}
+,{ "pid":12345, "tid":5, "ts":1659429266167604, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Binary Land/BinaryGame/BinaryLand_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":5, "ts":1659429266167615, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1659429266167618, "dur":556, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Binary Land/BinaryGame/BinaryLand_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":5, "ts":1659429266168181, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Binary Land/BinaryGame/BinaryLand_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":5, "ts":1659429266168193, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1659429266168196, "dur":381, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Binary Land/BinaryGame/BinaryLand_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":5, "ts":1659429266168583, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Binary Land/BinaryGame/BinaryLand_Data/boot.config" }}
+,{ "pid":12345, "tid":5, "ts":1659429266168646, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1659429266168648, "dur":331, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Binary Land/BinaryGame/BinaryLand_Data/boot.config" }}
+,{ "pid":12345, "tid":5, "ts":1659429266168987, "dur":32916, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1659429265760453, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1659429265760454, "dur":3391, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1659429265763849, "dur":31014, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Binary Land/BinaryGame/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":6, "ts":1659429265794870, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1659429265795037, "dur":445, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Binary Land/BinaryGame/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":6, "ts":1659429265795513, "dur":286588, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Binary Land/BinaryGame/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659429266082104, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1659429266082110, "dur":18817, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Binary Land/BinaryGame/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659429266100979, "dur":25824, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659429266126805, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1659429266126809, "dur":7778, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659429266134602, "dur":66557, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659429266201162, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1659429266201168, "dur":689, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Binary Land/BinaryGame/BinaryLand_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659429266201866, "dur":0, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":6, "ts":1659429266201867, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1659429266203862, "dur":1406, "ph":"X", "name": "ProfilerWriteOutput" }
+,
